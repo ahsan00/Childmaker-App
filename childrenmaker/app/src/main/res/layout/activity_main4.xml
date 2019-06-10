@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#35941a"
+    android:orientation="vertical"
+    tools:context=".Main4Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp">
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ক"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="খ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+
+                    />
+
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="গ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/btn4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ঘ"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <Button
+                    android:id="@+id/btn5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ঙ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"/>
+
+                <Button
+                    android:id="@+id/btn6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="চ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ছ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="জ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ঝ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/btn10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ঞ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ট"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ঠ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:id="@+id/btn13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:background="#ffa2a2"
+                    android:text="ড"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn14"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ঢ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:background="#ffa2a2"
+                    android:text="ণ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+            </TableRow>
+
+            <TableRow
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn16"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ত"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+
+
+                <Button
+                    android:id="@+id/btn17"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="থ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn18"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="দ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <Button
+                    android:id="@+id/btn19"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp"
+                    android:background="#ffa2a2"
+                    android:text="ধ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn20"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ন"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn21"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="প"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btn22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ফ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ব"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn24"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ভ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <Button
+                    android:id="@+id/btn25"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ম"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn26"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="য"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:id="@+id/btn27"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="র"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ল"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="শ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ষ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="স"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="হ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ড়"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ঢ়"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="য়"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ৎ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+            </TableRow>
+
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ং"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginTop="15dp"/>
+
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ঃ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="#ffa2a2"
+                    android:padding="20dp"
+                    android:text="ঁ"
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="15dp"/>
+
+            </TableRow>
+
+        </TableLayout>
+
+    </ScrollView>
+</LinearLayout>
